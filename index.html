@@ -1,11 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Marine Wood Craft — Honolulu, Hawaiʻi</title>
+  <title>Marine Wood Craft | Boat Wood Restoration in Hawaii, LA & San Francisco</title>
+  <meta name="description" content="Marine Wood Craft restores teak decks, brightwork & yacht wood. Serving Honolulu, Marina del Rey and San Francisco. 20+ years, 500+ vessels restored." />
+  <link rel="canonical" href="https://marinewoodcraft.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Marine Wood Craft | Boat Wood Restoration in Hawaii, LA & San Francisco" />
+  <meta property="og:description" content="Teak restoration, brightwork & yacht wood refinishing. Serving Honolulu, Marina del Rey and San Francisco." />
+  <meta property="og:url" content="https://marinewoodcraft.com/" />
+  <meta property="og:image" content="https://marinewoodcraft.com/assets/og-home.jpg" />
+  <meta property="og:locale" content="en_US" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Marine Wood Craft",
+    "url": "https://marinewoodcraft.com/",
+    "telephone": "+1-808-979-1296",
+    "email": "hi@marinewoodcraft.com",
+    "sameAs": [
+      "https://marinewoodcraft.com/hawaii/",
+      "https://marinewoodcraft.com/marina-del-rey/",
+      "https://marinewoodcraft.com/san-francisco/"
+    ],
+    "description": "Marine woodworking, teak restoration, brightwork, yacht varnishing and marine carpentry, serving Honolulu, Marina del Rey and San Francisco."
+  }
+  </script>
   <style>
     /* ── TOKENS ── */
     :root {
@@ -983,16 +1007,15 @@
       .contact { grid-template-columns: 1fr; }
       .contact-left, .contact-right { padding: 56px 32px; }
       footer { flex-direction: column; gap: 12px; padding: 32px; text-align: center; }
+      .location-grid { grid-template-columns: 1fr !important; }
+      .location-grid a { border-right: none !important; border-bottom: 1px solid rgba(13,13,13,0.1); }
     }
   </style>
 </head>
 <body>
 
-<!-- ════════════════════════════════════
-     HEADER
-════════════════════════════════════ -->
 <header>
-  <a href="#" class="logo">
+  <a href="/" class="logo">
     <div class="logo-mark">
       <svg width="36" height="36" viewBox="0 0 64 64" fill="none">
         <rect x="18" y="24" width="28" height="28" fill="none" stroke="rgba(245,242,237,0.55)" stroke-width="1.5"/>
@@ -1008,364 +1031,95 @@
     </div>
     <div class="logo-text">
       <span class="logo-name">Marine Wood<span style="color:var(--red)">Craft</span></span>
-      <span class="logo-sub">Honolulu, Hawaiʻi</span>
+      <span class="logo-sub">Hawaii · LA · SF</span>
     </div>
   </a>
   <nav>
-    <a href="#about">About</a>
+    <a href="/hawaii/">Hawaii</a>
+    <a href="/marina-del-rey/">Los Angeles</a>
+    <a href="/san-francisco/">San Francisco</a>
     <a href="#services">Services</a>
-    <a href="#process">Process</a>
-    <a href="#contact">Contact</a>
-    <a href="#contact" class="cta">Get a Quote</a>
+    <a href="/hawaii/#contact" class="cta">Get a Quote</a>
   </nav>
 </header>
 
-<!-- ════════════════════════════════════
-     HERO
-════════════════════════════════════ -->
-<section class="hero">
+<section class="hero" style="min-height:70vh;">
   <div class="hero-triangle"></div>
   <div class="hero-triangle-grain"></div>
   <div class="hero-grid"></div>
-  <div class="hero-waves">
-    <svg width="100%" height="100%" viewBox="0 0 600 700" preserveAspectRatio="none" fill="none">
-      <path d="M0 100 Q75 70 150 100 Q225 130 300 100 Q375 70 450 100 Q525 130 600 100" stroke="white" stroke-width="1.5"/>
-      <path d="M0 180 Q75 150 150 180 Q225 210 300 180 Q375 150 450 180 Q525 210 600 180" stroke="white" stroke-width="1"/>
-      <path d="M0 260 Q75 230 150 260 Q225 290 300 260 Q375 230 450 260 Q525 290 600 260" stroke="white" stroke-width="1.5"/>
-      <path d="M0 340 Q75 310 150 340 Q225 370 300 340 Q375 310 450 340 Q525 370 600 340" stroke="white" stroke-width="1"/>
-      <path d="M0 420 Q75 390 150 420 Q225 450 300 420 Q375 390 450 420 Q525 450 600 420" stroke="white" stroke-width="1.5"/>
-      <path d="M0 500 Q75 470 150 500 Q225 530 300 500 Q375 470 450 500 Q525 530 600 500" stroke="white" stroke-width="1"/>
-      <path d="M0 580 Q75 550 150 580 Q225 610 300 580 Q375 550 450 580 Q525 610 600 580" stroke="white" stroke-width="1.5"/>
-    </svg>
-  </div>
   <div class="hero-bar"></div>
   <div class="hero-gold"></div>
 
-  <!-- Left copy -->
   <div class="hero-left">
-    <span class="hero-eyebrow">Marine Woodworking · Est. Honolulu, HI</span>
+    <span class="hero-eyebrow">Marine Woodworking · Three Coasts</span>
     <h1 class="hero-h1">
-      Craftsmanship<br>For The<br><em>Sea</em>
+      Teak &amp; Brightwork<br>Restoration<br><em>Craft</em>
     </h1>
     <div class="hero-rule"></div>
     <p class="hero-p">
-      Custom marine woodworking, boat restoration, wood treatment, steam cleaning,
-      and 12V electrical service. Built for durability, precision, and timeless design on water.
+      Teak restoration, brightwork, yacht varnishing and marine carpentry —
+      serving boat owners in Honolulu, Marina del Rey and San Francisco.
     </p>
-    <div class="hero-actions">
-      <a href="#contact" class="btn-primary">
-        Get a Quote
-        <svg width="14" height="10" viewBox="0 0 14 10" fill="none"><path d="M1 5H13M9 1L13 5L9 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      </a>
-      <a href="#services" class="btn-secondary">Our Services</a>
-    </div>
   </div>
 
-  <!-- Right mark -->
   <div class="hero-right">
     <svg width="280" height="280" viewBox="0 0 280 280" fill="none">
-      <!-- outer hull ring -->
-      <path d="M140 30 L230 90 L230 180 Q230 230 140 250 Q50 230 50 180 L50 90 Z"
-            fill="none" stroke="rgba(245,242,237,0.06)" stroke-width="1"/>
-      <!-- mark -->
+      <path d="M140 30 L230 90 L230 180 Q230 230 140 250 Q50 230 50 180 L50 90 Z" fill="none" stroke="rgba(245,242,237,0.06)" stroke-width="1"/>
       <rect x="100" y="110" width="80" height="80" fill="none" stroke="rgba(245,242,237,0.5)" stroke-width="2"/>
       <path d="M100 110 L140 70 L180 110" fill="none" stroke="#F5F2ED" stroke-width="3"/>
       <path d="M80 190 Q140 215 200 190" fill="none" stroke="#D4A017" stroke-width="2.5"/>
-      <!-- wood grain inside rect -->
-      <line x1="108" y1="125" x2="172" y2="125" stroke="rgba(196,154,108,0.5)" stroke-width="1"/>
-      <line x1="108" y1="133" x2="172" y2="133" stroke="rgba(196,154,108,0.5)" stroke-width="1"/>
-      <line x1="108" y1="141" x2="172" y2="141" stroke="rgba(196,154,108,0.5)" stroke-width="1"/>
-      <line x1="108" y1="149" x2="172" y2="149" stroke="rgba(196,154,108,0.5)" stroke-width="1"/>
-      <line x1="108" y1="157" x2="172" y2="157" stroke="rgba(196,154,108,0.5)" stroke-width="1"/>
-      <line x1="108" y1="165" x2="172" y2="165" stroke="rgba(196,154,108,0.5)" stroke-width="1"/>
-      <line x1="108" y1="173" x2="172" y2="173" stroke="rgba(196,154,108,0.5)" stroke-width="1"/>
-      <line x1="108" y1="181" x2="172" y2="181" stroke="rgba(196,154,108,0.5)" stroke-width="1"/>
-      <!-- corner squares -->
-      <rect x="95" y="105" width="10" height="10" fill="#C0392B"/>
-      <rect x="175" y="105" width="10" height="10" fill="#C0392B"/>
-      <rect x="95" y="180" width="10" height="10" fill="#1A3A5C"/>
-      <rect x="175" y="180" width="10" height="10" fill="#1A3A5C"/>
-      <!-- steam wisps -->
-      <path class="steam-path" d="M120 110 Q117 96 120 84 Q123 72 120 60" stroke="rgba(245,242,237,0.4)" stroke-width="1.5" fill="none"/>
-      <path class="steam-path" d="M140 110 Q137 93 140 80 Q143 67 140 52" stroke="rgba(245,242,237,0.3)" stroke-width="1.5" fill="none"/>
-      <path class="steam-path" d="M160 110 Q157 96 160 84 Q163 72 160 60" stroke="rgba(245,242,237,0.35)" stroke-width="1.5" fill="none"/>
     </svg>
   </div>
+</section>
 
-  <div class="hero-scroll">
-    <div class="hero-scroll-line"></div>
-    <span class="hero-scroll-text">Scroll to explore</span>
+<div class="pattern-bar"></div>
+
+<!-- LOCATION CARDS -->
+<section style="padding:96px 64px;background:var(--white);">
+  <span class="section-label" style="color:var(--black);">Choose Your Location</span>
+  <h2 class="section-h2" style="color:var(--black);margin-bottom:48px;">Where We Work</h2>
+  <div class="location-grid" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;border:1px solid rgba(13,13,13,0.1);">
+    <a href="/hawaii/" style="text-decoration:none;color:inherit;padding:48px;border-right:1px solid rgba(13,13,13,0.1);transition:background 0.3s;">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:0.3em;text-transform:uppercase;color:var(--red);margin-bottom:12px;">Hawaii</div>
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:0.03em;margin-bottom:12px;">Honolulu &amp; Oʻahu</div>
+      <p style="font-size:14px;line-height:1.7;color:rgba(13,13,13,0.55);">Ala Wai Harbor, Waikiki &amp; Hawaii Kai. Teak restoration built for tropical UV. →</p>
+    </a>
+    <a href="/marina-del-rey/" style="text-decoration:none;color:inherit;padding:48px;border-right:1px solid rgba(13,13,13,0.1);transition:background 0.3s;">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:0.3em;text-transform:uppercase;color:var(--blue);margin-bottom:12px;">Los Angeles</div>
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:0.03em;margin-bottom:12px;">Marina del Rey &amp; SoCal</div>
+      <p style="font-size:14px;line-height:1.7;color:rgba(13,13,13,0.55);">Long Beach, San Pedro &amp; Newport Beach. Teak restoration built for the marine layer. →</p>
+    </a>
+    <a href="/san-francisco/" style="text-decoration:none;color:inherit;padding:48px;transition:background 0.3s;">
+      <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;letter-spacing:0.3em;text-transform:uppercase;color:var(--wood);margin-bottom:12px;">San Francisco</div>
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:28px;letter-spacing:0.03em;margin-bottom:12px;">SF Bay Area</div>
+      <p style="font-size:14px;line-height:1.7;color:rgba(13,13,13,0.55);">Sausalito, Alameda &amp; Richmond. Teak restoration built for the fog line. →</p>
+    </a>
   </div>
 </section>
 
-<!-- pattern -->
 <div class="pattern-bar"></div>
 
-<!-- ════════════════════════════════════
-     ABOUT
-════════════════════════════════════ -->
-<section id="about" class="about">
-  <div class="about-left">
-    <span class="section-label">02 — About Us</span>
-    <h2 class="section-h2">Built For<br>The Ocean</h2>
-    <div class="about-rule"></div>
-    <p>
-      Marine Wood Craft specializes in high-quality marine woodworking, restoration,
-      and custom boat interiors. Based in Honolulu, Hawaiʻi, we serve vessels of all
-      types — from classic wooden sailboats to modern motor yachts.
-    </p>
-    <p style="margin-top:16px;">
-      Every project is approached with the same commitment: precision craftsmanship,
-      durable materials, and finishes that stand up to the Pacific.
-    </p>
-  </div>
-  <div class="about-right">
-    <span class="section-label">Honolulu, Hawaiʻi</span>
-    <h2 class="section-h2" style="color:var(--white)">Precision &amp;<br>Durability</h2>
-    <div class="about-rule"></div>
-    <p>
-      Marine environments demand more. We use time-tested treatments, premium-grade
-      teak and hardwoods, and finishing techniques developed specifically for vessels
-      in the Pacific — where UV, salt, and humidity demand the highest standards.
-    </p>
-    <div class="about-stats">
-      <div class="stat-block">
-        <div class="stat-num">20+</div>
-        <div class="stat-label">Years Experience</div>
-      </div>
-      <div class="stat-block">
-        <div class="stat-num">500+</div>
-        <div class="stat-label">Vessels Restored</div>
-      </div>
-      <div class="stat-block">
-        <div class="stat-num">5</div>
-        <div class="stat-label">Core Services</div>
-      </div>
-      <div class="stat-block">
-        <div class="stat-num">HNL</div>
-        <div class="stat-label">Honolulu Based</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- pattern -->
-<div class="pattern-bar"></div>
-
-<!-- ════════════════════════════════════
-     SERVICES
-════════════════════════════════════ -->
+<!-- SERVICES OVERVIEW -->
 <section id="services" class="services-section">
   <div class="services-header">
     <div>
-      <span class="section-label">03 — What We Do</span>
+      <span class="section-label">What We Do</span>
       <h2 class="section-h2" style="font-size:52px;">Our Services</h2>
     </div>
-    <p>Interior &amp; exterior woodwork for marine vessels. Licensed, insured &amp; marine certified.</p>
+    <p>Available in Hawaii, Los Angeles &amp; San Francisco. Licensed, insured &amp; marine certified.</p>
   </div>
-
   <div class="services-grid">
-
-    <!-- 01 -->
-    <div class="svc-card">
-      <div class="svc-card-num">01</div>
-      <div class="svc-card-icon">
-        <svg width="36" height="36" viewBox="0 0 40 40" fill="none">
-          <path d="M8 28 L20 8 L32 28 Q32 34 20 36 Q8 34 8 28Z" stroke="#0D0D0D" stroke-width="1.5" fill="none"/>
-          <line x1="12" y1="22" x2="28" y2="22" stroke="#8B5E3C" stroke-width="1"/>
-          <line x1="11" y1="25" x2="29" y2="25" stroke="#8B5E3C" stroke-width="1"/>
-          <line x1="10" y1="28" x2="30" y2="28" stroke="#8B5E3C" stroke-width="1"/>
-        </svg>
-      </div>
-      <div class="svc-card-name">Marine Woodwork</div>
-      <div class="svc-card-desc">Hull, deck and interior finishing for all vessel types. Custom joinery and cabinetry.</div>
-      <div class="svc-card-bar"></div>
-    </div>
-
-    <!-- 02 -->
-    <div class="svc-card">
-      <div class="svc-card-num">02</div>
-      <div class="svc-card-icon">
-        <svg width="36" height="36" viewBox="0 0 40 40" fill="none">
-          <rect x="8" y="13" width="24" height="18" stroke="#0D0D0D" stroke-width="1.5" fill="none"/>
-          <line x1="8" y1="18" x2="32" y2="18" stroke="#8B5E3C" stroke-width="1"/>
-          <line x1="8" y1="22" x2="32" y2="22" stroke="#8B5E3C" stroke-width="1"/>
-          <rect x="14" y="8" width="12" height="7" stroke="#C0392B" stroke-width="1.5" fill="none"/>
-          <line x1="20" y1="4" x2="20" y2="8" stroke="#C0392B" stroke-width="1.5"/>
-        </svg>
-      </div>
-      <div class="svc-card-name">Boat Restoration</div>
-      <div class="svc-card-desc">Full vessel restoration — period correct and modern finishes. Structural repair.</div>
-      <div class="svc-card-bar"></div>
-    </div>
-
-    <!-- 03 -->
-    <div class="svc-card">
-      <div class="svc-card-num">03</div>
-      <div class="svc-card-icon">
-        <svg width="36" height="36" viewBox="0 0 40 40" fill="none">
-          <rect x="12" y="14" width="16" height="20" stroke="#0D0D0D" stroke-width="1.5" fill="none"/>
-          <line x1="12" y1="19" x2="28" y2="19" stroke="#8B5E3C" stroke-width="1"/>
-          <line x1="12" y1="23" x2="28" y2="23" stroke="#8B5E3C" stroke-width="1"/>
-          <line x1="12" y1="27" x2="28" y2="27" stroke="#8B5E3C" stroke-width="1"/>
-          <path d="M18 14 L20 7 L22 14" stroke="#C0392B" stroke-width="1.5" fill="none"/>
-          <line x1="8" y1="34" x2="32" y2="34" stroke="#D4A017" stroke-width="1.5"/>
-        </svg>
-      </div>
-      <div class="svc-card-name">Wood Treatment</div>
-      <div class="svc-card-desc">Sealing, oiling and UV protection for interior and exterior wood surfaces.</div>
-      <div class="svc-card-bar"></div>
-    </div>
-
-    <!-- 04 -->
-    <div class="svc-card">
-      <div class="svc-card-num">04</div>
-      <div class="svc-card-icon">
-        <svg width="36" height="36" viewBox="0 0 40 40" fill="none">
-          <rect x="10" y="26" width="20" height="7" rx="1" stroke="#0D0D0D" stroke-width="1.5" fill="none"/>
-          <path d="M14 26 Q13 20 15 15" stroke="#0D0D0D" stroke-width="1.3" fill="none"/>
-          <path d="M20 26 Q19 18 21 13" stroke="#0D0D0D" stroke-width="1.3" fill="none"/>
-          <path d="M26 26 Q25 20 27 15" stroke="#0D0D0D" stroke-width="1.3" fill="none"/>
-          <line x1="8" y1="33" x2="32" y2="33" stroke="#D4A017" stroke-width="1.5"/>
-        </svg>
-      </div>
-      <div class="svc-card-name">Steam Cleaning</div>
-      <div class="svc-card-desc">Deep steam cleaning and teak deck restoration. Removes salt, algae and staining.</div>
-      <div class="svc-card-bar"></div>
-    </div>
-
-    <!-- 05 -->
-    <div class="svc-card highlight">
-      <div class="svc-card-num">05</div>
-      <div class="svc-card-icon">
-        <svg width="36" height="36" viewBox="0 0 40 40" fill="none">
-          <path d="M23 6 L14 22 L20 22 L17 34 L26 18 L20 18 Z" stroke="#D4A017" stroke-width="1.8" stroke-linejoin="round" fill="none"/>
-          <circle cx="9" cy="20" r="2" stroke="rgba(245,242,237,0.4)" stroke-width="1" fill="none"/>
-          <circle cx="31" cy="20" r="2" stroke="rgba(245,242,237,0.4)" stroke-width="1" fill="none"/>
-          <line x1="11" y1="20" x2="14" y2="20" stroke="rgba(245,242,237,0.3)" stroke-width="1"/>
-          <line x1="26" y1="20" x2="29" y2="20" stroke="rgba(245,242,237,0.3)" stroke-width="1"/>
-        </svg>
-      </div>
-      <div class="svc-card-name">12V Electrical Fix</div>
-      <div class="svc-card-desc">Marine wiring, systems diagnostics and navigation lighting. Interior &amp; exterior.</div>
-      <div class="svc-card-bar"></div>
-    </div>
-
+    <div class="svc-card"><div class="svc-card-num">01</div><div class="svc-card-name">Teak Restoration</div><div class="svc-card-desc">Full deck sanding, sealing &amp; UV protection.</div><div class="svc-card-bar"></div></div>
+    <div class="svc-card"><div class="svc-card-num">02</div><div class="svc-card-name">Brightwork Restoration</div><div class="svc-card-desc">Hand-rubbed varnish systems for rails &amp; trim.</div><div class="svc-card-bar"></div></div>
+    <div class="svc-card"><div class="svc-card-num">03</div><div class="svc-card-name">Yacht Varnishing</div><div class="svc-card-desc">Multi-coat spar varnish application.</div><div class="svc-card-bar"></div></div>
+    <div class="svc-card"><div class="svc-card-num">04</div><div class="svc-card-name">Marine Carpentry</div><div class="svc-card-desc">Custom joinery &amp; interior wood repair.</div><div class="svc-card-bar"></div></div>
+    <div class="svc-card highlight"><div class="svc-card-num">05</div><div class="svc-card-name">12V Electrical Fix</div><div class="svc-card-desc">Marine wiring &amp; navigation lighting.</div><div class="svc-card-bar"></div></div>
   </div>
 </section>
 
-<!-- ════════════════════════════════════
-     PROCESS
-════════════════════════════════════ -->
-<section id="process" class="process">
-  <div class="process-header">
-    <div>
-      <span class="section-label">04 — How We Work</span>
-      <h2 class="section-h2" style="color:var(--white)">Our Process</h2>
-    </div>
-  </div>
-  <div class="process-grid">
-    <div class="process-step">
-      <div class="step-num">01</div>
-      <div class="step-title">Inspection</div>
-      <div class="step-desc">We assess every surface, joint and system — identifying what needs attention before a single tool is raised.</div>
-    </div>
-    <div class="process-step">
-      <div class="step-num">02</div>
-      <div class="step-title">Proposal</div>
-      <div class="step-desc">A clear, itemized quote covering materials, timelines and scope. No surprises, no hidden costs.</div>
-    </div>
-    <div class="process-step">
-      <div class="step-num">03</div>
-      <div class="step-title">Craftwork</div>
-      <div class="step-desc">Our team executes with precision — using premium marine-grade materials and time-tested techniques.</div>
-    </div>
-    <div class="process-step">
-      <div class="step-num">04</div>
-      <div class="step-title">Delivery</div>
-      <div class="step-desc">Final inspection, walkthrough with the owner, and a care guide for maintaining your vessel's finish.</div>
-    </div>
-  </div>
-</section>
-
-<!-- pattern -->
-<div class="pattern-bar"></div>
-
-<!-- ════════════════════════════════════
-     CONTACT
-════════════════════════════════════ -->
-<section id="contact" class="contact">
-  <div class="contact-left">
-    <span class="section-label">05 — Get In Touch</span>
-    <h2 class="section-h2">Call Us<br><span style="color:var(--yellow)">Today</span></h2>
-    <div class="about-rule" style="margin:20px 0;"></div>
-    <p>Ready to restore, treat, or build? We work on vessels of all sizes across Honolulu and the surrounding islands. Reach out for a free quote.</p>
-
-    <div class="contact-detail">
-      <div class="contact-detail-label">Phone</div>
-      <a href="tel:8089791296" class="contact-detail-value">808-979-1296</a>
-    </div>
-
-    <div class="contact-detail" style="margin-top:20px;">
-      <div class="contact-detail-label">Email</div>
-      <span class="contact-detail-email">hi@marinewoodcraft.com</span>
-    </div>
-
-    <div class="contact-detail" style="margin-top:20px;">
-      <div class="contact-detail-label">Location</div>
-      <span class="contact-detail-email" style="font-size:13px;color:rgba(245,242,237,0.5);">Honolulu, Hawaiʻi · Interior &amp; Exterior Marine</span>
-    </div>
-
-    <div class="contact-waves">
-      <svg width="100%" height="100%" viewBox="0 0 500 200" preserveAspectRatio="none" fill="none">
-        <path d="M0 40 Q62 20 125 40 Q187 60 250 40 Q312 20 375 40 Q437 60 500 40" stroke="white" stroke-width="1.5"/>
-        <path d="M0 80 Q62 60 125 80 Q187 100 250 80 Q312 60 375 80 Q437 100 500 80" stroke="white" stroke-width="1"/>
-        <path d="M0 120 Q62 100 125 120 Q187 140 250 120 Q312 100 375 120 Q437 140 500 120" stroke="white" stroke-width="1.5"/>
-        <path d="M0 160 Q62 140 125 160 Q187 180 250 160 Q312 140 375 160 Q437 180 500 160" stroke="white" stroke-width="1"/>
-      </svg>
-    </div>
-  </div>
-
-  <div class="contact-right">
-    <span class="section-label">What We Offer</span>
-    <h2 class="section-h2" style="color:var(--black);font-size:40px;">All Services</h2>
-    <div class="about-rule"></div>
-    <div class="contact-services">
-      <div class="contact-svc-row">
-        <span class="contact-svc-num">01</span>
-        <span class="contact-svc-name">Marine Woodwork</span>
-        <span class="contact-svc-tag">Interior · Exterior</span>
-      </div>
-      <div class="contact-svc-row">
-        <span class="contact-svc-num">02</span>
-        <span class="contact-svc-name">Boat Restoration</span>
-        <span class="contact-svc-tag">Full Vessel</span>
-      </div>
-      <div class="contact-svc-row">
-        <span class="contact-svc-num">03</span>
-        <span class="contact-svc-name">Wood Treatment</span>
-        <span class="contact-svc-tag">Seal · Oil · UV</span>
-      </div>
-      <div class="contact-svc-row">
-        <span class="contact-svc-num">04</span>
-        <span class="contact-svc-name">Steam Cleaning</span>
-        <span class="contact-svc-tag">Teak · Deep Clean</span>
-      </div>
-      <div class="contact-svc-row" style="border-bottom:none;">
-        <span class="contact-svc-num" style="color:var(--wood)">05</span>
-        <span class="contact-svc-name gold">12V Electrical Fix</span>
-        <span class="contact-svc-tag">Wiring · Nav · Systems</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ════════════════════════════════════
-     FOOTER
-════════════════════════════════════ -->
 <footer>
   <div class="footer-logo">MARINE WOOD<span>CRAFT</span></div>
-  <div class="footer-copy">&copy; 2026 Marine Wood Craft · Honolulu, Hawaiʻi · All rights reserved.</div>
+  <div class="footer-copy">&copy; 2026 Marine Wood Craft · Hawaii · Los Angeles · San Francisco · All rights reserved.</div>
   <div class="footer-mark">Licensed · Insured · Marine Certified</div>
 </footer>
 
