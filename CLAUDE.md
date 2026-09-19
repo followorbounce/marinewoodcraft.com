@@ -20,3 +20,6 @@ Marketing/SEO site for a boat wood restoration business (teak, brightwork, varni
 ## Repo
 
 `origin` → `github.com/followorbounce/marinewoodcraft.com`. Related: `followorbounce.com/p/MarineWoodCraft.html` is a separate standalone artifact page in a different repo, not part of this site.
+
+## Analytics
+Cloudflare Web Analytics beacon added 2026-09-19 — own site (host `marinewoodcraft.com`, see `[[cloudflare-analytics-setup]]` in memory).
