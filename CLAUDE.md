@@ -7,7 +7,8 @@ Marketing/SEO site for a boat wood restoration business (teak, brightwork, varni
 - `index.html` — brand/hub homepage: short intro + cards linking to each location page, not itself a location page
 - `hawaii/index.html`, `marina-del-rey/index.html`, `san-francisco/index.html` — per-location landing pages
 - `marina-del-rey.html` — legacy redirect stub (meta-refresh) to `/marina-del-rey/`; keep this pattern for any other old flat URLs that get relocated into a directory
-- `services/teak-restoration/index.html` — service page (see Next steps: sitemap references four more service pages not yet built)
+- `services/teak-restoration/index.html` — service page (template for other service pages)
+- `services/boat-keeper/index.html` — Boat Keeper recurring maintenance/monitoring service page (visit checklist, 3 frequency tiers, FAQ, wood-care integration pitch)
 - `robots.txt`, `sitemap.xml`, `CNAME`
 - `SEO-STRATEGY.md` — the multi-location SEO plan this site structure implements (subdirectories not subdomains, per-location content must differ 60-70%+, self-referencing canonicals, LocalBusiness schema, no shared boilerplate beyond nav/footer)
 
