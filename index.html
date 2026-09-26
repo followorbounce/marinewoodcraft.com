@@ -689,6 +689,15 @@
       transition: width 0.4s ease;
     }
 
+    .svc-card-link {
+      display:inline-block; margin-top:10px; font-family:'IBM Plex Mono',monospace;
+      font-size:10px; letter-spacing:0.1em; text-transform:uppercase;
+      color:var(--red); text-decoration:none; position:relative; z-index:1;
+      transition:color 0.3s;
+    }
+    .svc-card-link:hover { text-decoration:underline; }
+    .svc-card:hover .svc-card-link { color:var(--yellow); }
+
     /* Highlight card — 12V */
     .svc-card.highlight {
       background: var(--blue);
@@ -1115,7 +1124,7 @@
     <div class="svc-card"><div class="svc-card-num">03</div><div class="svc-card-name">Yacht Varnishing</div><div class="svc-card-desc">Multi-coat spar varnish application.</div><div class="svc-card-bar"></div></div>
     <div class="svc-card"><div class="svc-card-num">04</div><div class="svc-card-name">Marine Carpentry</div><div class="svc-card-desc">Custom joinery &amp; interior wood repair.</div><div class="svc-card-bar"></div></div>
     <div class="svc-card highlight"><div class="svc-card-num">05</div><div class="svc-card-name">12V Electrical Fix</div><div class="svc-card-desc">Marine wiring &amp; navigation lighting.</div><div class="svc-card-bar"></div></div>
-    <div class="svc-card"><div class="svc-card-num">06</div><div class="svc-card-name">Boat Keeper</div><div class="svc-card-desc">Ongoing maintenance, monitoring &amp; wash-downs.</div><div class="svc-card-bar"></div></div>
+    <div class="svc-card"><div class="svc-card-num">06</div><div class="svc-card-name">Boat Keeper</div><div class="svc-card-desc">Ongoing maintenance, monitoring &amp; wash-downs.</div><a class="svc-card-link" href="/services/boat-keeper/">Check availability with us &rarr;</a><div class="svc-card-bar"></div></div>
   </div>
 </section>
 
