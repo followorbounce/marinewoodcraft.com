@@ -26,33 +26,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marinewoodcraft.com/services/brightwork-restoration/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://marinewoodcraft.com/services/yacht-varnishing/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://marinewoodcraft.com/services/boat-wood-repair/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://marinewoodcraft.com/services/marine-carpentry/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://marinewoodcraft.com/services/boat-keeper/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://marinewoodcraft.com/gallery/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
   </url>
 </urlset>
