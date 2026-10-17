@@ -26,3 +26,4 @@
 
 ## 2026-10-16 — Index infrastructure
 - added llms.txt and an IndexNow key file; HTTPS is served by Cloudflare's proxy, so GitHub cannot issue/enforce its own certificate — enforce it in Cloudflare (SSL/TLS → Edge Certificates → Always Use HTTPS; zone is not in the account our API token sees).
+- Cloudflare (proxy in front of GitHub Pages) blocks AI crawlers on this domain: GPTBot / ClaudeBot / PerplexityBot user agents get 403, Googlebot / Bingbot get 200 (tested 2026-10-16). robots.txt cannot override that; owner must turn off AI-crawler blocking in the Cloudflare dashboard (AI Crawl Control / Bots → Block AI bots) if the site should appear in AI answers. IndexNow: 6 URLs accepted (202).
