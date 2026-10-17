@@ -23,3 +23,6 @@
 - Build the four missing service pages and `/gallery/` referenced in `sitemap.xml`, or trim the sitemap to match reality until they exist.
 - Remove the tracked `.DS_Store` from the repo (currently committed at root).
 - 2026-10-02 — `sitemap.xml` trimmed to pages that exist (removed brightwork-restoration, yacht-varnishing, boat-wood-repair, marine-carpentry, gallery — they returned 404). Add each back when its page ships (workspace roadmap P1.8).
+
+## 2026-10-16 — Index infrastructure
+- added llms.txt and an IndexNow key file; HTTPS is served by Cloudflare's proxy, so GitHub cannot issue/enforce its own certificate — enforce it in Cloudflare (SSL/TLS → Edge Certificates → Always Use HTTPS; zone is not in the account our API token sees).
